@@ -16,7 +16,8 @@ public class Authentication {
 
 
 		getUnAndPw();
-		check();
+		authenticate();
+		display();
 		
 
 	}
@@ -55,14 +56,6 @@ public class Authentication {
 			return false;
 		
 		}
-	}
-	
-	public static String outputUn(){
-		return username;
-	}
-	
-	public static String outputPw(){
-		return password;
 	}
 
 }
